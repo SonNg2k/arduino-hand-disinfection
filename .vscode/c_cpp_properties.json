@@ -5,7 +5,9 @@
             "includePath": [
                 "/Applications/Arduino.app/Contents/Java/libraries",
                 "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
-                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard"
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/**",
+                "/Applications/Arduino.app/Contents/Java/tools/**"
             ],
             "forcedInclude": [
                 "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h"
@@ -20,7 +22,9 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "defines": [ "USBCON" ],
+            "defines": [
+                "USBCON"
+            ],
             "intelliSenseMode": "clang-x64",
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c11",
